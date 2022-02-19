@@ -130,6 +130,11 @@ header nav ul li a {
 .item-1 {
     grid-column: 1 / span 6;
     grid-row: 1 / span 4;
+    transition: transform .2s;
+}
+
+.item-1:hover {
+    transform: scale(1.2);
 }
 
 .item-2 {
@@ -166,7 +171,12 @@ header nav ul li a {
 }
 
 .contact-links img {
-    max-width: 100%;   
+    max-width: 100%;
+    transition: .2s;   
+}
+
+.contact-links img:hover {
+    transform: scale(1.5);
 }
 
 footer {
